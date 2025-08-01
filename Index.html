@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Facebook Alert UI</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f0f2f5;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .alert-box {
+      background-color: #fff;
+      width: 380px;
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+
+    .alert-box img {
+      width: 48px;
+      margin-bottom: 10px;
+    }
+
+    .alert-box h2 {
+      font-size: 20px;
+      margin: 0;
+      color: #333;
+    }
+
+    .alert-box .verified {
+      color: #1877f2;
+      margin-left: 6px;
+      font-size: 16px;
+      vertical-align: middle;
+    }
+
+    .alert-box .section {
+      margin-top: 8px;
+      font-size: 16px;
+      color: #666;
+    }
+
+    .alert-box .warning {
+      margin-top: 15px;
+      font-weight: bold;
+      color: #d93025;
+    }
+
+    .alert-box .text {
+      margin-top: 8px;
+      font-size: 14px;
+      color: #444;
+      line-height: 1.5;
+    }
+
+    .alert-box button {
+      margin-top: 20px;
+      background-color: #1877f2;
+      color: white;
+      border: none;
+      padding: 10px 24px;
+      border-radius: 6px;
+      font-size: 14px;
+      cursor: pointer;
+      transition: background-color 0.2s ease;
+    }
+
+    .alert-box button:hover {
+      background-color: #145dbf;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="alert-box">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook Logo">
+    <h2>Facebook Support <span class="verified">✔️</span></h2>
+    <div class="section">Page Violation Notice</div>
+    <div class="warning">Immediate Action Required</div>
+    <div class="text">
+      We've detected unusual activity on your page. To keep your account active, please verify your page within 24 hours. Ignoring this may result in limited access.
+    </div>
+    <button>Verify Now</button>
+  </div>
+
+</body>
+</html>
+  
